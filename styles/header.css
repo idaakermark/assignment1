@@ -1,0 +1,31 @@
+header {
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    height: 50%;
+    padding: 64px;
+    position: relative;
+}
+
+.logo-image {
+    padding: 10%;
+}
+
+.logo-image:before {
+    background-image: url(../bilder/logo-image.jpeg);
+    background-position: 50% 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: ' '; 
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-image {
+        padding: 20%;
+    }
+}

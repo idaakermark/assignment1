@@ -1,0 +1,57 @@
+html {
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../bilder/christmas-background2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+
+#about-link {
+    color: #000000;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.background-info-box,
+.video,
+.why-soywax {
+    background-color: #FFFFFF;
+    border: 1px solid #705D56;
+    color: #000000;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    padding: 5%;
+    width: 60%;
+}
+
+video {
+    height: 85%;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .background-info-box,
+    .video,
+    .why-soywax {
+        display: grid;
+        width: 80%; 
+    }
+}

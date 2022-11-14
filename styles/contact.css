@@ -1,0 +1,46 @@
+html {
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../bilder/christmas-background2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+
+#contact-link {
+    color: #000000;
+}
+
+.form {
+    align-self: center;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    color: #000000;
+    display: flex;
+    margin: 5%;
+    padding: 2% 15% 5% 15%;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    text-align: center;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 8px 0;
+    padding: 12px 20px;
+    width: 100%;
+}
